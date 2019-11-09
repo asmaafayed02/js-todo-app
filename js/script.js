@@ -1,0 +1,1 @@
+let clear = document.getElementsByClassName('fa-sync-alt')

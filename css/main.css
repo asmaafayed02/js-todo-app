@@ -1,0 +1,32 @@
+.todo{
+    margin: auto;
+    height: 550px;
+    width: 300px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px,
+                -5px -5px 5px;
+}
+.todo .head {
+    margin: 0px;
+    padding: 0px;
+}
+.todo .head i{position: relative;left: 260px; top: -40px;}
+.todo img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.todo ul{height: 225px;}
+.todo .input{
+    margin-left: 2px;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.todo .fas{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+}
