@@ -18,15 +18,24 @@
     border-radius: 5px;
 }
 .todo ul{height: 225px;}
-.todo .input{
+.todo #input{
     margin-left: 2px;
     width: 250px;
     height: 30px;
     padding-left: 10px;
     font-size: 20px;
 }
-.todo .fas{
+.todo #add{
     font-size: 30px;
     position: relative;
-    top: 5px;
+    top: 5px;;
+}
+#error{display: none;color: rgb(219, 81, 81);margin-top: -2px;padding-left: 10px;}
+.task{
+    padding: 10px;
+    background-color: rgb(158, 89, 129);
+    list-style: none;
+    margin: 0px;
+    width: 200px;
+
 }

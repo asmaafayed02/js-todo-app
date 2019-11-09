@@ -8,20 +8,18 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body onload="tasker.construct();">
     <div class="todo">
       <div class="head">
         
         <img src="images/instagram-img-09.jpg">
-         <i class="fas fa-sync-alt"></i>
+         <i class="fas fa-sync-alt fa-2x"></i>
       </div>
-        <ul class="list">
-            <li></li>
-            
+        <ul id="list">
         </ul>
-        <input class="input" type="text" placeholder="write any thing">
-        <i class="fas fa-plus-circle"></i>
-
+        <input id="input" type="text" placeholder="write any thing">
+        <i id="add" class="fas fa-plus-circle " ></i>
+         <p id="error">please enter the text</p>
     </div>
     <script src="js/script.js"></script>
 </body>
